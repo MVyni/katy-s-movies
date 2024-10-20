@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(32, 31, 31);
+}
+
+.header-section{
+    width: 90vw;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 2vh 2vw 2vh 2vw;
+    border-bottom: 0.5px solid rgb(213, 213, 213);
+}
+
+.title{
+    float: left;
+    color: red;
+    margin-left: 4vw;
+}
+
+.navOptions{
+    float: right;
+    margin-right: 2vw;
+    text-decoration: none;
+    color: white;
+}
+
+.navOptions:hover{
+    color: red;
+    transition-duration: 0.5s;
+}
+
+.cover-img, .trailer{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.img{
+    width: 50%;
+    text-align: center;
+}
+
+.subtitle{
+    color: white;
+    font-size: 50px;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.p-img{
+    color: white;
+    margin: 3vh 0px 0px 3vw;
+    font-size: 20px;
+}
+
+.description-trailer h4, .description-trailer p{
+    color: white;
+    margin-left: 3.5vw;
+}
+
+.video-trailer{
+   margin-left: 3vw;
+}
